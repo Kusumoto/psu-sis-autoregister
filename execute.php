@@ -1,6 +1,6 @@
 <?php
 include('config.php');
-include('function.php');
+include('functions.php');
 
 // Login To SIS
 $logindata = GetDataFromURL($SIS_URL.'/WebRegist2005/Login.aspx',null);
