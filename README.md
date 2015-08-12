@@ -5,6 +5,9 @@ The Robot Automation Registeration for Prince of Songkla University's Student In
 - php_curl extension
 - Internet Faster
 
+### Spacial Thanks
+- simple_html_dom library
+
 ### How to use
 - Edit this section in file config.php
 ```php
