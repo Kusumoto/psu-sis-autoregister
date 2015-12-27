@@ -23,6 +23,17 @@ function ExtractFormByName($contents,$formname)
 	return $form_field;
 }
 
+function ExtractFormHided($contents,$formname)
+{
+	$html = str_get_html($contents);
+	$form_field = array();
+	foreach($html->find('form[name="'.$formname.'"] input[type="hidden"]') as $element) 
+	{
+		$form_field[$element->name] = $element->value;
+	}
+	return $form_field;
+}
+
 function ExtractJavaScriptToGetURL($contents,$formname)
 {
 	$html = str_get_html($contents);

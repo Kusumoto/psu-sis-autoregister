@@ -61,7 +61,8 @@ if (!empty($loginname_data))
 				{
 					echo "[". getTimeNow() . "] Register Information : Finally enroll to subject ". $Subject_To_Register[$i]['SubjectCode'] . "\n";
 					$SemiFinalRegister = GetDataFromURL($SIS_URL.'/WebRegist2005/Enroll/EnrollDetail.aspx',null);
-					$SemiFinalFormRegister = ExtractFormByID($SemiFinalRegister,'aspnetForm');
+					$SemiFinalFormRegister = ExtractFormHided($SemiFinalRegister,'aspnetForm');
+					$SemiFinalFormRegister['ctl00$ctl00$mainContent$PageContent$btnConfirm'] = 'Confirm The Registration';
 					$FinalRegister = GetDataFromURL($SIS_URL.'/WebRegist2005/Enroll/EnrollDetail.aspx',$SemiFinalFormRegister);
 					echo "[". getTimeNow() . "] [".$Subject_To_Register[$i]['SubjectCode']."] Register Information : Complete!\n";
 				}
