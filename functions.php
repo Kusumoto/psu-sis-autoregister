@@ -86,7 +86,7 @@ function getTimeNow()
 
 function extractSecInfo($contents,$section)
 {
-	$dom_selector = (integer)$section * 4;
+	$dom_selector = (integer)$section * 4 + ((integer)$section - 1);
 	$html = str_get_html($contents);
 	$returnarr = array();
 	$temp_element1 = $html->find('table[id=ctl00_ctl00_mainContent_PageContent_UcSectionOfferDetail1_gvSectionDetail]')[0];
