@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Psu-sis-autoregister : The Robot Automation Registeration for Prince of Songkla University&#39;s Student Information System.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Psu-sis-autoregister</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Kusumoto/psu-sis-autoregister">View on GitHub</a>
+
+          <h1 id="project_title">Psu-sis-autoregister</h1>
+          <h2 id="project_tagline">The Robot Automation Registeration for Prince of Songkla University&#39;s Student Information System.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Kusumoto/psu-sis-autoregister/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Kusumoto/psu-sis-autoregister/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="psu-sis-autoregister" class="anchor" href="#psu-sis-autoregister" aria-hidden="true"><span class="octicon octicon-link"></span></a>PSU SIS AutoRegister</h1>
+
+<p>The Robot Automation Registeration for Prince of Songkla University's Student Information System.</p>
+
+<h3>
+<a id="requirement" class="anchor" href="#requirement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirement</h3>
+
+<ul>
+<li>PHP Version 5.3+</li>
+<li>php_curl extension</li>
+<li>Internet Faster</li>
+</ul>
+
+<h3>
+<a id="spacial-thanks" class="anchor" href="#spacial-thanks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spacial Thanks</h3>
+
+<ul>
+<li>simple_html_dom library</li>
+</ul>
+
+<h3>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
+
+<ul>
+<li>Edit this section in file config.php</li>
+</ul>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$PSU_Passport_Username</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>; <span class="pl-c">// Username for PSU Passport</span></span>
+<span class="pl-s1"><span class="pl-smi">$PSU_Passport_Password</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>; <span class="pl-c">// Password for PSU Passport</span></span>
+<span class="pl-s1"><span class="pl-smi">$SIS_Term</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>; <span class="pl-c">// Semester for register in type 'semester/year'</span></span>
+<span class="pl-s1"><span class="pl-smi">$Subject_To_Register</span> <span class="pl-k">=</span> <span class="pl-c1">array</span>(); <span class="pl-c">// Subject to register in type ...</span></span>
+<span class="pl-s1"><span class="pl-c">/*</span></span>
+<span class="pl-s1"><span class="pl-c">$Subject_To_Register = array(</span></span>
+<span class="pl-s1"><span class="pl-c">    array('SubjectCode' =&gt; '', 'SubjectSec' =&gt; '', 'SubjectCredit' =&gt; ''),</span></span>
+<span class="pl-s1"><span class="pl-c">    array('SubjectCode' =&gt; '', 'SubjectSec' =&gt; '', 'SubjectCredit' =&gt; ''),</span></span>
+<span class="pl-s1"><span class="pl-c">    array('SubjectCode' =&gt; '', 'SubjectSec' =&gt; '', 'SubjectCredit' =&gt; ''),</span></span>
+<span class="pl-s1"><span class="pl-c">    ....</span></span>
+<span class="pl-s1"><span class="pl-c">);</span></span>
+<span class="pl-s1"><span class="pl-c">*/</span></span>
+<span class="pl-s1"><span class="pl-smi">$SIS_URL</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>; <span class="pl-c">// SIS server for register</span></span></pre></div>
+
+<ul>
+<li>You can use this command for start robot</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre>php execute.php</pre></div>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>Apache License</p>
+
+<h3>
+<a id="more-information-and-contect-to-developer" class="anchor" href="#more-information-and-contect-to-developer" aria-hidden="true"><span class="octicon octicon-link"></span></a>More information and contect to developer</h3>
+
+<ul>
+<li><a href="https://kusumotolab.com">Website :: https://kusumotolab.com</a></li>
+<li><a href="https://twtter.com/kusumoto_ton">Twitter :: @Kusumoto_ton</a></li>
+<li><a href="https://facebook.com/Azerdar.t.Kusumoto">Facebook :: Weerayut Hongsa</a></li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Psu-sis-autoregister maintained by <a href="https://github.com/Kusumoto">Kusumoto</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
