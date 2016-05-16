@@ -81,7 +81,7 @@ function getTimeNow()
 {
 	// Set Date-Time Zone
 	date_default_timezone_set('Asia/Bangkok');
-	return date('Y-m-d H:m:s');
+	return date('Y-m-d H:i:s');
 }
 
 function extractSecInfo($contents,$section)
