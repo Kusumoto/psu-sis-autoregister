@@ -1,4 +1,4 @@
-# !! Project not comfirm to work in SIS correct version because project is been longer support.!!
+# !! Project not comfirm to work in SIS correct version because project is not been longer support.!!
 
 http://kusumoto.github.io/psu-sis-autoregister/
 
