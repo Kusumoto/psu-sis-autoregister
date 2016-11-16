@@ -1,3 +1,7 @@
+# !! Project not comfirm to work in SIS correct version because project is been longer support.!!
+
+http://kusumoto.github.io/psu-sis-autoregister/
+
 # PSU SIS AutoRegister
 The Robot Automation Registeration for Prince of Songkla University's Student Information System.
 ### Requirement
