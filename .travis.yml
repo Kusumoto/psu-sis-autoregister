@@ -8,5 +8,5 @@ php:
   - hhvm
   - nightly
 script:
-  - chmod +x travis.sh
+  - chmod +x run-scanner.sh
   - ./run-scanner.sh
