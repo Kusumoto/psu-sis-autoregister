@@ -9,4 +9,4 @@ php:
   - nightly
 script:
   - chmod +x travis.sh
-  - ./travis.sh
+  - ./run-scanner.sh
